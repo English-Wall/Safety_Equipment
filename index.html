@@ -24,10 +24,11 @@
     .vocab-item img {
       width: 200px;
       height: 200px;
-      object-fit: cover; /* or use 'contain' if you prefer full image visible */
+      object-fit: contain; /* or use 'contain' if you prefer full image visible */
       cursor: pointer;
       border: 1px solid #ccc;
       border-radius: 8px;
+      background-color: white;
     }
   
     .vocab-item span {
@@ -51,17 +52,17 @@
     </div>
 
     <div class="vocab-item">
-      <img src="surgical_mask.jpg" alt="Hammer"
-           onclick="document.getElementById('hammerSound').play()">
-      <span>Hammer</span>
-      <audio id="hammerSound" src="hammer.mp3"></audio>
+      <img src="surgical_mask.jpg" alt="Surgical Mask"
+           onclick="document.getElementById('surgical_maskSound').play()">
+      <span>Surgical Mask</span>
+      <audio id="surgical_maskSound" src="surgical_mask.mp3"></audio>
     </div>
 
     <div class="vocab-item">
-      <img src="workwear.PNG" alt="Screwdriver"
-           onclick="document.getElementById('screwdriverSound').play()">
-      <span>Screwdriver</span>
-      <audio id="screwdriverSound" src="screwdriver.mp3"></audio>
+      <img src="workwear.PNG" alt="Workweear"
+           onclick="document.getElementById('workwearSound').play()">
+      <span>Workweear</span>
+      <audio id="workwearSound" src="workwear.mp3"></audio>
     </div>
 
     <!-- You can add more vocab items below the same way -->
